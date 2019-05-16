@@ -4,6 +4,8 @@ This project refers to the paper "Measuring abstract reasoning in neural network
 
 Data: https://console.cloud.google.com/storage/browser/ravens-matrices
 
+description of database: https://github.com/deepmind/abstract-reasoning-matrices
+
 Images are of size 160x160x16. The last dimension denotes the panel number for the matrix, with the first 8 panels being the "context", and the last 8 being the "choices".
 
 NB: each matrix of context is built by randomly sampling of:
