@@ -18,4 +18,4 @@ NB: each matrix of context is built by randomly sampling of:
 
 Programming source code: I try to write codes with reference to the following site:
 https://github.com/gitlimlab/Relation-Network-Tensorflow
-However, the code use h5py file as data source. To make life easier, I wrote a program to create h5py file with data for Relation Network.
+However, the code use h5py file as data source. To make life easier, I wrote a program "h5py_generator.ipynb" to create the required h5py file with data for Relation Network.
