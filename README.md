@@ -18,4 +18,5 @@ NB: each matrix of context is built by randomly sampling of:
 
 Programming source code: I try to write codes with reference to the following site:
 https://github.com/gitlimlab/Relation-Network-Tensorflow
-However, the code use h5py file as data source. To make life easier, I wrote a program "h5py_generator.ipynb" to create the required h5py file with data for Relation Network.
+However, the code use h5py file as data source. To make life easier, I wrote a testing  program "h5py_generator.ipynb" to create the required h5py file with data for Relation Network and a program convert_npz_hy.ipynb which convert npz files to hy file. However, the created hy file is too big in size even for just convert 625 npz files.
+
